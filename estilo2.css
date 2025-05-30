@@ -1,0 +1,115 @@
+ * {
+      
+      margin: 0;
+      padding: 0;
+    }
+    .bandeira {
+      
+      padding: 10px;      
+      text-align: left;
+      
+    }
+    h1 {
+    padding-inline-start: 800px ;
+    font-size: 134px;
+      text-align: start;
+      color: aliceblue;
+      font: bolder;
+  
+     font-weight: 1000;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+     .btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(216, 14, 14);
+    border-radius: 0.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 900;
+    font-size: 1rem;
+  }
+  .btn:hover {
+    background-color: #1100ffc0;
+  }
+  
+  img {
+    height: 300px ;
+    width: 400px;
+    padding-inline: 730px;
+
+    
+  }
+  body {
+    background-image: url(imagens/torre.webp );
+  }
+      
+      .typewriter {
+      font-weight:900;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid rgb(255, 255, 255);
+      width: 0;
+      animation: typing 2s steps(11) 1s forwards, 
+                 erase 2s steps(11) 5s forwards;
+                 color: rgb(255, 0, 0);       
+      margin-left: 38%;
+      font-size: 90px;
+     
+      
+      
+                
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 11ch; } /* "siye frança" = 11 caracteres */
+    }
+
+    @keyframes erase {
+      from { width: 11ch; }
+      to { width: 0; }
+    }
+
+    .loop {
+      animation: loop 5s infinite;
+     
+      
+    }
+
+    @keyframes loop {
+      0%   { width: 0; }
+      14%  { width: 10ch; }
+      57%  { width: 10ch; }
+      85%  { width: 0; }
+      100% { width: 0; }
+    }
+main {
+  
+  padding-top: 60px;
+  padding-bottom: 400px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  padding-inline: 100px;
+  
+
+
+  
+}
+
+nav{
+  text-align: center;
+  
+  
+  
+}
+
+
+
